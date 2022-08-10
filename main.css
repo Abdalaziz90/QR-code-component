@@ -1,0 +1,44 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 350px;
+    height: 590px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+img {
+    width: 90%;
+    height: 57%;
+    margin: 20px 20px;
+    border-radius: 3%;
+}
+
+.card h2 {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 2px;
+    color: hsl(218, 44%, 22%);
+}
+
+.card p {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 21px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
+
+@media (max-width: 375px) {
+    body {
+        margin: 0 30px;
+    }
+}
